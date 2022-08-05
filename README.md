@@ -1,4 +1,11 @@
 
+```bash
+
+npx create-nx-workspace {workspace name} --defaultBase main # create a workspace w/out global nx
+npx nx dep-graph # dependency graphs, use affected:dep-graph to run against a diff
+npx nx serve {app name} #serves an app
+npx nx e2e {e2e test name} --watch #runs the e2e test in watch mode
+```
 
 # Bghoard
 
